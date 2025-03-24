@@ -75,6 +75,10 @@ h1{
 }    
 
 /* review user styles */
+
+.review-card-section{
+    margin-top: 3rem;
+}
 .review-card{
     background: var(--Very-Dark-Magenta);
     padding-right: 2rem;
@@ -161,7 +165,7 @@ h1{
         display: flex;;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 4.44rem;
+        margin-bottom: 2rem;
         margin-left: 10rem;
         margin-right: 10rem;
     }
@@ -217,10 +221,10 @@ h1{
     }
 
     .review-card-section > .review-card:nth-of-type(2) { /* 2nd div of review card section */
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .review-card-section > .review-card:nth-of-type(3) { /* 3nd div of review card section */
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
 }  
