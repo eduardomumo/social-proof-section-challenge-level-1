@@ -126,13 +126,15 @@ h1{
 
     body{
         background-image: 
-        url("../images/bg-pattern-top-desktop.svg"),
-        url("../images/bg-pattern-bottom-desktop.svg");
+        url("images/bg-pattern-top-desktop.svg"),
+        url("images/bg-pattern-bottom-desktop.svg");
         background-repeat: no-repeat;
         background-position: 
         top left,
         bottom right;
-        background-size: auto, auto;
+        background-size: 
+        auto, 
+        auto;
     }
 
     header{
@@ -146,6 +148,7 @@ h1{
         letter-spacing: -0.125rem;
         line-height: 3rem;
         margin-left: 0;
+        margin-top: 0;
     }
 
     .header-text{
@@ -164,7 +167,6 @@ h1{
     }
 
     .ranking-card-section{
-        margin-top: 7.3rem;
         padding-top: 7rem;
     }
 
