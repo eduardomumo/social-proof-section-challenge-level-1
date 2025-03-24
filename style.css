@@ -1,0 +1,108 @@
+:root{
+/*Primary colors*/
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+    
+/*Neutral colors*/
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color: var(--Very-Dark-Magenta);
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 2rem; /* 80% */
+    letter-spacing: -0.08931rem;
+    margin-top: 5.12rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.06rem;
+    text-align: center;
+}
+
+.header-text{
+    text-align: center;
+    color: var(--Dark-Grayish-Magenta);
+    font-size: 1.1875rem;
+    font-weight: 500;
+    line-height: 1.5625rem; 
+    letter-spacing: -0.03956rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2.44rem;
+}
+
+.ranking-card{
+    text-align: center;
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 0.625rem;
+    margin: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ranking-card-text{
+    color: var(--Very-Dark-Magenta);
+    font-size: 1.0625rem;
+    font-weight: 700;
+    margin-top: 0.95rem;
+}    
+
+.review-card{
+    background: var(--Very-Dark-Magenta);
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.img-user-container{
+    display: flex;
+    align-items: center;
+    gap: 1.44rem;
+}
+
+.img-user{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.user-name{
+    color: var(--White);
+    font-size: 1.0625rem;
+    font-weight: 700;
+}
+
+.user-verified{
+    color: var(--Soft-Pink);
+    font-size: 1.0625rem;
+    font-weight: 400;
+}
+
+.review-card-text{
+    font-size: 1.0625rem;
+    color: var(--White);
+    font-weight: 500;
+    line-height: 1.375rem; /* 129.412% */
+    letter-spacing: -0.019rem;
+    margin-top: 1.5rem;
+}
